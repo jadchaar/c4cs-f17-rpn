@@ -5,7 +5,8 @@ import operator
 ops = {
     '+': operator.add,
     '-': operator.sub,
-    '^': operator.pow
+    '^': operator.pow,
+    '*': operator.mul
 }
 
 
@@ -30,5 +31,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    
