@@ -5,8 +5,7 @@ import operator
 ops = {
     '+': operator.add,
     '-': operator.sub,
-    '^': operator.pow,
-    '*': operator.mul  # Reduce coverage
+    '^': operator.pow
 }
 
 
@@ -22,6 +21,13 @@ def calculate(arg):
             result = function(arg1, arg2)
             stack.append(result)
     return stack.pop()
+
+
+def reduce_coverage():
+    i = 100
+    while i > 0:
+        i -= 1
+    pass
 
 
 def main():
