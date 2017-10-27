@@ -5,7 +5,8 @@ import operator
 ops = {
     '+': operator.add,
     '-': operator.sub,
-    '^': operator.pow
+    '^': operator.pow,
+    '*': operator.mul  # Reduce coverage
 }
 
 
