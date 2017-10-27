@@ -5,8 +5,7 @@ import operator
 ops = {
     '+': operator.add,
     '-': operator.sub,
-    '^': operator.pow,
-    '*': operator.mul
+    '^': operator.pow
 }
 
 

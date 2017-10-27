@@ -11,10 +11,10 @@ python:
   - 3.6
 
 install:
-  - pip install coveralls
+  - pip install coveralls coverage
 
 script:
-  - make
-  
+  - coverage run test_rpn.py
+
 after_success:
   - coveralls
