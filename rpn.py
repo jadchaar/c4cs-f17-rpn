@@ -38,6 +38,22 @@ def reduce_coverage():
     pass
 
 
+def reduce_coverage_2():
+    i = 100
+    while i > 0:
+        i -= 1
+    i = 100
+    while i > 0:
+        i -= 1
+    i = 100
+    while i > 0:
+        i -= 1
+    i = 100
+    while i > 0:
+        i -= 1
+    pass
+
+
 def main():
     total_input = ""
     print("Type = to calculate")
